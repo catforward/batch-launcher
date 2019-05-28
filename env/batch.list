@@ -1,0 +1,13 @@
+################################################################################
+# define your batch task
+# format:
+#   BATCH_ID::PATH_OF_EXECUTABLE_FILE
+# example:
+#   B0100::bin/do_something
+################################################################################
+
+[dummy bash script]
+T01::scripts/bash/do_nothing.bash
+
+[dummy python script]
+T02::scripts/python/do_nothing.py
